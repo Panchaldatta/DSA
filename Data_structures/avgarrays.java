@@ -2,11 +2,8 @@ package Data_structures;
 
 public class avgarrays {
     // Java program to calculate average of array elements
-
-    // Function that return average of an array.
     static double average(int a[], int n)
     {
-        
         // Find sum of array element
         int sum = 0;
     
