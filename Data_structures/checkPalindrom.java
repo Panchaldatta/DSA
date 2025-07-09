@@ -12,7 +12,7 @@ public class checkPalindrom {
      int left  = i, right = i;
      while (left >=0 && right < n && str.charAt(left)==str.charAt(right)){
       result.add (str.substring(left ,right));
-      left++;
+      left--;
       right++;
 
      }
