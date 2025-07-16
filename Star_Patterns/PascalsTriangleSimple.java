@@ -18,19 +18,18 @@
 
 
 package Star_Patterns;
+public class PascalsTriangleSimple {
+    public static void main(String[] args) {
+        int n = 5; // number of rows
 
-public class pascalsTrangle {
-
-    static void printPascalTriangle(int n) {
-        for (int i = 0; i <= n; i++) {
+        for (int i = 0; i < n; i++) {
+            int num = 1;
             for (int j = 0; j <= i; j++) {
-                System.out.print("* ");
+                System.out.print(num + " ");
+                num = num * (i - j) / (j + 1);
             }
             System.out.println();
         }
     }
-
-    public static void main(String[] args) {
-        printPascalTriangle(4);
-    }
 }
+
