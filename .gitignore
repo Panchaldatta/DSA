@@ -38,3 +38,35 @@ bin/
 # Mac / Windows system files
 .DS_Store
 Thumbs.db
+
+# Ignore the VS Code settings folder
+.vscode/
+
+# Ignore build files
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+
+# Ignore backup/swap files
+*~
+*.swp
+*.swo
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore compiled files from make or g++
+build/
+bin/
+
+# Ignore specific files
+input.txt
+output.txt
