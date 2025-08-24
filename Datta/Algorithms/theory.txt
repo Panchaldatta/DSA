@@ -1,0 +1,119 @@
+
+🚀 What is an Algorithm?
+
+An algorithm is a step-by-step set of instructions to solve a problem or perform a task.
+👉 Think of it as a recipe: input ingredients → follow steps → get output.
+
+Example:
+
+Input: A list of numbers [5, 2, 8, 1]
+
+Algorithm: Sort them in ascending order
+
+Output: [1, 2, 5, 8]
+
+🔑 Categories of Algorithms
+1. Basic Algorithms
+
+Sorting: Bubble Sort, Insertion Sort, Merge Sort, Quick Sort, Heap Sort
+
+Searching: Linear Search, Binary Search
+
+2. Divide & Conquer
+
+Merge Sort, Quick Sort, Binary Search, Strassen’s Matrix Multiplication
+
+3. Greedy Algorithms
+
+Kruskal’s MST, Prim’s MST, Huffman Coding, Dijkstra’s Algorithm
+
+4. Dynamic Programming (DP)
+
+Fibonacci (optimized), Longest Common Subsequence, Knapsack Problem, Matrix Chain Multiplication
+
+5. Graph Algorithms
+
+BFS (Breadth-First Search)
+
+DFS (Depth-First Search)
+
+Dijkstra’s Algorithm
+
+Bellman-Ford
+
+Floyd-Warshall
+
+Kruskal’s & Prim’s
+
+6. Backtracking
+
+N-Queens Problem
+
+Sudoku Solver
+
+Rat in a Maze
+
+Word Search
+
+7. Advanced Algorithms
+
+KMP Algorithm (String Matching)
+
+Rabin-Karp
+
+Fast Fourier Transform (FFT)
+
+Union-Find / DSU (Disjoint Set Union)
+
+🛠 Example: Binary Search (Classic Algorithm)
+def binary_search(arr, target):
+    left, right = 0, len(arr) - 1
+    
+    while left <= right:
+        mid = (left + right) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    
+    return -1
+
+# Example usage
+numbers = [1, 3, 5, 7, 9, 11]
+print(binary_search(numbers, 7))  # Output: 3
+
+📈 Roadmap to Learn Algorithms (Step-by-Step)
+
+Start with Basics
+
+Learn Sorting & Searching (Bubble, Insertion, Merge, Quick, Binary Search).
+
+Master Recursion
+
+Factorial, Fibonacci, Tower of Hanoi.
+
+Understand Divide & Conquer
+
+Merge Sort, Quick Sort, Binary Search.
+
+Study Greedy Algorithms
+
+Activity Selection, Minimum Spanning Trees (Kruskal, Prim).
+
+Dive into Dynamic Programming (DP)
+
+Fibonacci (memoization + tabulation), Knapsack, Longest Common Subsequence.
+
+Learn Graph Algorithms
+
+BFS, DFS, Dijkstra, Bellman-Ford, Floyd-Warshall.
+
+Explore Backtracking
+
+N-Queens, Sudoku Solver.
+
+Advanced Topics
+
+String Matching (KMP, Rabin-Karp), Union-Find, FFT.
